@@ -7,8 +7,8 @@ import {
 import { AppProvider, ErrorPage } from '@edx/frontend-platform/react';
 import ReactDOM from 'react-dom';
 
-import Header, { messages as headerMessages } from '@edx/frontend-component-header';
-import Footer, { messages as footerMessages } from '@edx/frontend-component-footer';
+import Header, { messages as headerMessages } from '@abstract-tech/community-theme-header';
+import Footer, { messages as footerMessages } from '@abstract-tech/community-theme-footer';
 
 import appMessages from './i18n';
 import ExamplePage from './example/Course_about';
