@@ -53,8 +53,8 @@ const About = () => {
   const [enrolled, setEnrolled] = useState(false);
   const [enrollMessage, setEnrollMessage] = useState("");
 
-  const url = "https://community.abzt.de"
-  const appsurl = "https://apps.community.abzt.de"
+  const url = getConfig().LMS_BASE_URL;
+  const appsurl = getConfig().BASE_URL;
 
   // const url = "http://local.overhang.io:8000"
   // const appsurl = "https://apps.local.overhang.io:3000"
