@@ -54,7 +54,7 @@ const About = () => {
   const [enrollMessage, setEnrollMessage] = useState("");
 
   const url = getConfig().LMS_BASE_URL;
-  const appsurl = getConfig().BASE_URL;
+  const appsurl = `https://${getConfig().BASE_URL}`;
 
   // const url = "http://local.overhang.io:8000"
   // const appsurl = "https://apps.local.overhang.io:3000"
